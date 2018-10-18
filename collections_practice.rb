@@ -49,12 +49,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |item|
-    item + "s"
-  end
-  if item = "feet"
-    return array
-  end
+
       
 end
 
