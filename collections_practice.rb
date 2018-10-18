@@ -53,7 +53,7 @@ def add_s(array)
   if element = "feet"
     return element[1]
   end
-    
+  end
 end
 
 # a=[11,22,31,224,44].each_with_index do |val,index| puts "index: #{index} for #{val}" if val < 30
