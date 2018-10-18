@@ -24,7 +24,7 @@ end
 
 
 def reverse_array(array) #[12, 4, 35]
-  
+  array.sort
 end
 
 
