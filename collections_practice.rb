@@ -50,7 +50,7 @@ end
 
 def add_s(array)
 
-      
+  [1,2].each_with_index.collect{|element, index| }    
 end
 
 # a=[11,22,31,224,44].each_with_index do |val,index| puts "index: #{index} for #{val}" if val < 30
