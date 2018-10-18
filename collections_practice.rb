@@ -49,11 +49,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index do |element, index|
-  if element = "feet"
-    return element[1]
+  array.collect do |item|
+    item + "s"
   end
-  end
+  if item = "feet"
+    return "feet"
+      
 end
 
 # a=[11,22,31,224,44].each_with_index do |val,index| puts "index: #{index} for #{val}" if val < 30
