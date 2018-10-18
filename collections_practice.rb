@@ -54,6 +54,7 @@ def add_s(array)
   end
   if item = "feet"
     return "feet"
+  end
       
 end
 
